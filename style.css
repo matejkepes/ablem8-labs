@@ -1,0 +1,139 @@
+/* Brutalist Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Brutalist Styling */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    margin-bottom: 3rem;
+}
+
+.hero {
+    margin-bottom: 4rem;
+}
+
+.service {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    border-left: 3px solid #000;
+}
+
+/* Lists */
+ul {
+    list-style-position: inside;
+    margin-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.expertise {
+    margin-top: 1.5rem;
+}
+
+/* Contact Section */
+.company-details {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid #000;
+}
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 3px solid #000;
+    font-size: 0.9rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .service {
+        padding-left: 0.5rem;
+        border-left-width: 2px;
+    }
+
+    ul {
+        margin-left: 0.5rem;
+    }
+}
